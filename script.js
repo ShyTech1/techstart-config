@@ -1,5 +1,6 @@
 // script file to improve website interactivity
 
+
 // Function to toggle the visibility of a menu
 function toggleMenu() {
     const menu = document.getElementById('menu');
@@ -32,3 +33,5 @@ window.addEventListener('resize', scaleElements);
 
 // Initial scaling of elements on page load
 window.addEventListener('load', scaleElements);     
+
+// End of script.js 
