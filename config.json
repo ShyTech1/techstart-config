@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 "apiUrl":"https://api.techstart.com",
+=======
+:"apiUrl:"https://api.techstart.com",
+>>>>>>> 70869b4 (edit config file)
 "maxRetries":3,
 "timeout":5000, "endpoints":
 {
