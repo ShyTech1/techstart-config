@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 "apiUrl": "<https://api.techstart.com>",
 "timeout":2, 
 "maxRetries": 3,
@@ -7,13 +6,4 @@
 "products": "/api/v1/products",
 "orders": "/api/v1/orders"
 	}
-=======
-:"apiUrl:"https://api.techstart.com",
-"maxRetries":3,
-"timeout":5000, "endpoints":
-{
-"products":"/api/v1/products",
-"orders":"/api/v1/orders"
-}
->>>>>>> 70869b4 (edit config file)
 }
