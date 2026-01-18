@@ -1,7 +1,10 @@
-# My Project
+**************************
 
-This project demonstrates basic Git usage.
+techstart solution
+
+*************************
+
+Here for you!
 
 
-
-I now know how to make conflicts
+contact the author: shaikelman@gmail.com
