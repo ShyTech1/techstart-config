@@ -7,7 +7,7 @@
     <title>GitHub Basic Commands and Workflows</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
-    
+
 </head>
 <body>
 <!-- add nav bar with basic commands, workflows, common issues -->
@@ -51,6 +51,32 @@
             <h3>Gitflow Workflow</h3>
             <p>Gitflow is a branching model that defines a strict branching structure. It includes branches for features, releases, and hotfixes, allowing for organized development and release cycles.</p>
         </section>
+        <!-- add merge commands -->
+        <section id="merge-commands">
+            <h2>Merge Commands</h2>
+            <ul>
+                <li><strong>git merge &lt;branch-name&gt;</strong>: Merge the specified branch into the current branch.</li>
+                <li><strong>git rebase &lt;branch-name&gt;</strong>: Reapply commits on top of another base tip.</li>
+                <li><strong>git mergetool</strong>: Launch a merge conflict resolution tool.</li>
+            </ul>
+        </section>
+        <section id="push-pull">
+            <h2>Push and Pull Commands</h2>
+            <p>The <strong>git push</strong> command is used to upload local repository content to a remote repository. It updates the remote repository with the latest changes from the local branch.</p>
+            <p>The <strong>git pull</strong> command is used to fetch and merge changes from a remote repository into the current local branch. It combines the git fetch and git merge commands.</p>
+        </section>
+        <!-- for example -->
+        <section id="example">
+            <h2>Example Workflow</h2>
+            <ol>
+                <li>Clone a repository: <code>git clone &lt;repository-url&gt;</code></li>
+                <li>Create a new branch: <code>git checkout -b feature-branch</code></li>
+                <li>Make changes and stage them: <code>git add .</code></li>
+                <li>Commit the changes: <code>git commit -m "Add new feature"</code></li>
+                <li>Push the branch to the remote repository: <code>git push origin feature-branch</code></li>
+                <li>Create a pull request on GitHub to merge the feature branch into the main branch.</li>
+            </ol>
+        </section>  
     </main>
     <footer>
         <p>&copy; 2024 GitHub Basic Commands and Workflows</p>
