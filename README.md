@@ -1,5 +1,10 @@
-# My Project
+**************************
 
-This project demonstrates basic Git usage.
+techstart solution
 
-There is also a web site that shows some basic git commands.
+*************************
+
+Here for you!
+
+
+contact the author: shaikelman@gmail.com
